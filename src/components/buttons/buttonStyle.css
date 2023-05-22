@@ -1,0 +1,22 @@
+.button-section{
+    min-width:60px;
+    height:64px;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: -0.5333333611488342px;
+    box-shadow: inset 0px -4px 0px #B3A497;
+    border-radius: 5px;
+    color:#434A59;
+    background-color: #EAE3DC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shadow-style-second{
+    box-shadow: inset 0px -4px 0px #A79E91;
+}
+.shadow-style-third{
+    box-shadow: inset 0px -4px 0px #881C9E;
+}

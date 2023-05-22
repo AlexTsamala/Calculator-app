@@ -9,7 +9,7 @@ const ResultField: FC<Props> = ({ selectedTheme }) => {
   return (
     <input
       className={`main-section ${
-        selectedTheme === 30
+        selectedTheme === 28
           ? "second-theme"
           : selectedTheme === 52
           ? "third-theme"

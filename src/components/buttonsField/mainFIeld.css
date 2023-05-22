@@ -1,0 +1,61 @@
+.buttons-section{
+    width:327px;
+    min-height:420px;
+    background-color: #242D44;
+    border-radius: 10px;
+    padding: 24px;
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:13px;
+    align-self: center;
+    cursor: pointer;
+}
+.second-theme{
+    background-color: #D2CDCD;
+}
+.third-theme{
+    background-color: #1E0936;
+}
+.bottom-buttons{
+    width: 133px;
+    height: 64px;
+    font-family: "League Spartan";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.reset-button{
+    background-color: #647198;
+    color:#FFFFFF;
+    box-shadow: inset 0px -4px 0px #414E73;
+}
+.reset-button-secondary{
+    background-color: #378187;
+    box-shadow: inset 0px -4px 0px #1B6066;
+}
+.reset-button-third{
+    background-color: #56077C;
+    box-shadow: inset 0px -4px 0px #BE15F4;
+}
+.equal-button{
+    background-color: #D03F2F;
+    color:#FFFFFF;
+    box-shadow: inset 0px -4px 0px #93261A;
+}
+.equal-button-secondary{
+    background-color: #C85402;
+    box-shadow: inset 0px -4px 0px #873901;
+}
+.equal-button-third{
+    background-color: #00DED0;
+    box-shadow: inset 0px -4px 0px #6CF9F1;
+    color:#1A2327;
+}

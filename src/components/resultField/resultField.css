@@ -5,6 +5,7 @@
     border-radius: 10px;
     border: none;
     margin-top: 60px;
+    align-self: center;
 }
 .main-section[type=number]  {
     font-family: "League Spartan";

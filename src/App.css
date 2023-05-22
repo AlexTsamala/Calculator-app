@@ -10,6 +10,8 @@
   height:100vh;
   padding: 2rem;
   background-color: #3A4663;
+  display: flex;
+  flex-direction: column;
 }
 .theme-second{
   background-color:#E6E6E6;

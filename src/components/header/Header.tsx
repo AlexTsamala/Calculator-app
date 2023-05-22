@@ -12,7 +12,7 @@ const Header: FC<Props> = ({ selectedTheme, setSelectedThem }) => {
     <div className="container-header">
       <h1
         className={`calc-header ${
-          selectedTheme === 30
+          selectedTheme === 28
             ? "number-theme-second"
             : selectedTheme === 52
             ? "number-theme-third"
@@ -24,7 +24,7 @@ const Header: FC<Props> = ({ selectedTheme, setSelectedThem }) => {
       <div className="toggle-section">
         <span
           className={`theme ${
-            selectedTheme === 30
+            selectedTheme === 28
               ? "number-theme-second"
               : selectedTheme === 52
               ? "number-theme-third"
