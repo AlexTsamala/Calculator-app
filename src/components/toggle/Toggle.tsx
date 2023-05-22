@@ -22,9 +22,10 @@ const ToggleComponent: FC<Props> = ({ selectedTheme, setSelectedThem }) => {
   return (
     <div>
       <div className="number-section">
-        {toggleNumbers.map((number) => {
+        {toggleNumbers.map((number, index) => {
           return (
             <span
+              key={index}
               className={`toggle-number ${
                 selectedTheme === 28
                   ? "number-theme-second"

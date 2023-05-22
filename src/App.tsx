@@ -7,6 +7,7 @@ import ButtonsField from "./components/buttonsField/MainField";
 
 function App() {
   const [selectedTheme, setSelectedThem] = useState<number>(3);
+  const [inputValue, setInputValue] = useState<string>("");
 
   return (
     <div
@@ -19,8 +20,12 @@ function App() {
       }`}
     >
       <Header setSelectedThem={setSelectedThem} selectedTheme={selectedTheme} />
-      <ResultField selectedTheme={selectedTheme} />
-      <ButtonsField selectedTheme={selectedTheme} />
+      <ResultField inputValue={inputValue} selectedTheme={selectedTheme} />
+      <ButtonsField
+        setInputValue={setInputValue}
+        inputValue={inputValue}
+        selectedTheme={selectedTheme}
+      />
     </div>
   );
 }

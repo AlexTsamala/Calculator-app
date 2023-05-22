@@ -3,9 +3,10 @@ import "./resultField.css";
 
 interface Props {
   selectedTheme: number;
+  inputValue: number | string;
 }
 
-const ResultField: FC<Props> = ({ selectedTheme }) => {
+const ResultField: FC<Props> = ({ selectedTheme, inputValue }) => {
   return (
     <input
       className={`main-section ${
@@ -15,7 +16,8 @@ const ResultField: FC<Props> = ({ selectedTheme }) => {
           ? "third-theme"
           : ""
       }`}
-      value="0"
+      value={inputValue}
+      placeholder="0"
       type="number"
       readOnly
     ></input>

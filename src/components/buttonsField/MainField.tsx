@@ -4,24 +4,30 @@ import ButtonCustomized from "../buttons/ButtonCustomized";
 
 interface Props {
   selectedTheme: number;
+  inputValue: string;
+  setInputValue: (chosenButton: string) => void;
 }
 
-const ButtonsField: FC<Props> = ({ selectedTheme }) => {
+const ButtonsField: FC<Props> = ({
+  selectedTheme,
+  setInputValue,
+  inputValue,
+}) => {
   const ButtonsArr = [
-    7,
-    8,
-    9,
+    "7",
+    "8",
+    "9",
     "DEL",
-    4,
-    5,
-    6,
+    "4",
+    "5",
+    "6",
     "+",
-    1,
-    2,
-    3,
+    "1",
+    "2",
+    "3",
     "-",
     ".",
-    0,
+    "0",
     "/",
     "x",
   ];
@@ -36,10 +42,12 @@ const ButtonsField: FC<Props> = ({ selectedTheme }) => {
           : ""
       }`}
     >
-      {ButtonsArr.map((element, index) => {
+      {ButtonsArr.map((element: string, index) => {
         return (
           <Fragment key={index}>
             <ButtonCustomized
+              inputValue={inputValue}
+              setInputValue={setInputValue}
               color={
                 selectedTheme === 28
                   ? "#36362C"
