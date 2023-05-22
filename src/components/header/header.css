@@ -1,0 +1,30 @@
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.calc-header{
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.533333px;
+    color: #FFFFFF;
+}
+.theme{
+    font-family: 'League Spartan';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 1px;
+    text-align: center;
+    color:#ffffff
+}
+.number-theme-second{
+    color:#36362C;
+}
+.number-theme-third{
+    color:#FFE53D;
+}

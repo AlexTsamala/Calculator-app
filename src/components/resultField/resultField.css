@@ -1,0 +1,30 @@
+.main-section{
+    width:327px;
+    min-height: 88px;
+    background-color: #181F33;
+    border-radius: 10px;
+    border: none;
+    margin-top: 60px;
+}
+.main-section[type=number]  {
+    font-family: "League Spartan";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.6666666865348816px;
+    text-align: right;
+    color:#ffffff;
+    padding:0 24px 0;
+}
+.second-theme{
+    background-color: #EEEEEE;
+}
+.second-theme[type=number]{
+    color: #36362C;
+}
+.third-theme{
+    background-color: #1E0936;
+}
+.third-theme[type=number]{
+    color: #FFE53D;
+}

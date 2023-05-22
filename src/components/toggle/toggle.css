@@ -1,0 +1,56 @@
+.ball-area{
+    background-color: #242D44;
+    width: 72px;
+    height: 21px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.ball-area-theme-II{
+    background-color: #D2CDCD;
+}
+.ball-area-theme-III{
+    background-color: #1E0936;
+}
+.ball{
+    border-radius: 50px;
+    background-color: #D03F2F;
+    width: 16px;
+    height:16px;
+    position: absolute;
+    top:2px;
+    left:5px
+}
+.second-theme-ball{
+    background-color: #C85402;
+}
+.third-theme-ball{
+    background-color: #00DED0;
+}
+.toggle-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap:26px;
+}
+.number-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4px 0;
+    margin-bottom:5px;
+}
+.toggle-number{
+    font-family: League Spartan;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0px;
+    text-align: center;
+    color:#ffffff;
+}
+.number-theme-second{
+    color:#36362C;
+}
+.number-theme-third{
+    color:#FFE53D;
+}
