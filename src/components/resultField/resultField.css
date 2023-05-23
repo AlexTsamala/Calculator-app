@@ -7,7 +7,7 @@
     margin-top: 60px;
     align-self: center;
 }
-.main-section[type=number]  {
+.main-section[type=string]  {
     font-family: "League Spartan";
     font-size: 40px;
     font-weight: 700;
@@ -20,12 +20,12 @@
 .second-theme{
     background-color: #EEEEEE;
 }
-.second-theme[type=number]{
+.second-theme[type=string]{
     color: #36362C;
 }
 .third-theme{
     background-color: #1E0936;
 }
-.third-theme[type=number]{
+.third-theme[type=string]{
     color: #FFE53D;
 }

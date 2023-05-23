@@ -29,8 +29,30 @@ const ButtonsField: FC<Props> = ({
     ".",
     "0",
     "/",
-    "x",
+    "*",
   ];
+
+  function calculateExpression(expression: string) {
+    try {
+      const result = eval(expression);
+      return result;
+    } catch (error) {
+      return "Invalid expression";
+    }
+  }
+
+  const valueHandler = (buttonValue: string) => {
+    if (buttonValue === "DEL") {
+      setInputValue(inputValue.slice(0, -1));
+    } else if (buttonValue === "RESET") {
+      setInputValue("");
+    } else if (buttonValue === "=") {
+      const result = calculateExpression(inputValue);
+      setInputValue(result.toString());
+    } else {
+      setInputValue(inputValue + buttonValue);
+    }
+  };
 
   return (
     <div
@@ -46,6 +68,7 @@ const ButtonsField: FC<Props> = ({
         return (
           <Fragment key={index}>
             <ButtonCustomized
+              valueHandler={valueHandler}
               inputValue={inputValue}
               setInputValue={setInputValue}
               color={
@@ -75,6 +98,7 @@ const ButtonsField: FC<Props> = ({
         );
       })}
       <div
+        onClick={() => valueHandler("RESET")}
         className={`reset-button bottom-buttons ${
           selectedTheme === 28
             ? "reset-button-secondary"
@@ -86,6 +110,7 @@ const ButtonsField: FC<Props> = ({
         RESET
       </div>
       <div
+        onClick={() => valueHandler("=")}
         className={`equal-button bottom-buttons ${
           selectedTheme === 28
             ? "equal-button-secondary"
