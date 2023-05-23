@@ -5,6 +5,7 @@
     border-radius: 50px;
     position: relative;
     cursor: pointer;
+    transition: 0.8s;
 }
 .ball-area-theme-II{
     background-color: #D2CDCD;
@@ -19,7 +20,8 @@
     height:16px;
     position: absolute;
     top:2px;
-    left:5px
+    left:5px;
+    transition: 0.8s;
 }
 .second-theme-ball{
     background-color: #C85402;
