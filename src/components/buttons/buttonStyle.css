@@ -20,3 +20,10 @@
 .shadow-style-third{
     box-shadow: inset 0px -4px 0px #881C9E;
 }
+@media (width > 1440px) {
+.button-section{
+    width:113px;
+    min-height:64px;
+}
+ 
+}

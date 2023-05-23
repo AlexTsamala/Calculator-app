@@ -69,8 +69,6 @@ const ButtonsField: FC<Props> = ({
           <Fragment key={index}>
             <ButtonCustomized
               valueHandler={valueHandler}
-              inputValue={inputValue}
-              setInputValue={setInputValue}
               color={
                 selectedTheme === 28
                   ? "#36362C"

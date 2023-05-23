@@ -29,3 +29,12 @@
 .third-theme[type=string]{
     color: #FFE53D;
 }
+@media (width > 1440px) {
+.main-section{
+    width: 540px;
+    min-height: 90px;
+}
+.main-section[type=string]{
+    font-size: 50px;
+}
+}

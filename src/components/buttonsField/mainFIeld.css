@@ -59,3 +59,14 @@
     box-shadow: inset 0px -4px 0px #6CF9F1;
     color:#1A2327;
 }
+
+@media (width > 1440px) {
+.buttons-section{
+    width:540px;
+    min-height:460px;
+}
+.bottom-buttons{
+    width:239px;
+    min-height:64px;
+}
+}

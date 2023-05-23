@@ -28,3 +28,9 @@
 .number-theme-third{
     color:#FFE53D;
 }
+@media (width > 1440px) {
+.container-header{
+    gap: 345px;
+    justify-content: center;
+}
+}

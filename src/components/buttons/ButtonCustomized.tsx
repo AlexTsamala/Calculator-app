@@ -6,8 +6,6 @@ interface Props {
   backGroundColor: string;
   text: string;
   shadowClass: string;
-  setInputValue: (chosenButton: string) => void;
-  inputValue: string;
   valueHandler: (buttonValue: string) => void;
 }
 
@@ -16,8 +14,6 @@ const ButtonCustomized: FC<Props> = ({
   backGroundColor,
   text,
   shadowClass,
-  setInputValue,
-  inputValue,
   valueHandler,
 }) => {
   return (
